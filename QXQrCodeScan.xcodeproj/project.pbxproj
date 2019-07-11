@@ -75,6 +75,7 @@
 		0469343422D4294100E4D90B /* QXImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXImagePicker.m; sourceTree = "<group>"; };
 		0469343622D434B900E4D90B /* QXQrCodeScanVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXQrCodeScanVC.h; sourceTree = "<group>"; };
 		0469343722D434B900E4D90B /* QXQrCodeScanVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXQrCodeScanVC.m; sourceTree = "<group>"; };
+		049E01B122D71CD600BB1483 /* QXQrCodeScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXQrCodeScan.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +142,7 @@
 		0469340022D4290D00E4D90B /* QXQrCodeScan */ = {
 			isa = PBXGroup;
 			children = (
-				0455A05C22D5866A00306DE4 /* image */,
+				049E01B022D71CA600BB1483 /* QXQrCodeScan */,
 				0469340122D4290D00E4D90B /* AppDelegate.h */,
 				0469340222D4290D00E4D90B /* AppDelegate.m */,
 				0469340422D4290D00E4D90B /* ViewController.h */,
@@ -151,10 +152,6 @@
 				0469340C22D4290E00E4D90B /* LaunchScreen.storyboard */,
 				0469340F22D4290E00E4D90B /* Info.plist */,
 				0469341022D4290E00E4D90B /* main.m */,
-				0469343322D4294100E4D90B /* QXImagePicker.h */,
-				0469343422D4294100E4D90B /* QXImagePicker.m */,
-				0469343622D434B900E4D90B /* QXQrCodeScanVC.h */,
-				0469343722D434B900E4D90B /* QXQrCodeScanVC.m */,
 			);
 			path = QXQrCodeScan;
 			sourceTree = "<group>";
@@ -175,6 +172,19 @@
 				0469342722D4290F00E4D90B /* Info.plist */,
 			);
 			path = QXQrCodeScanUITests;
+			sourceTree = "<group>";
+		};
+		049E01B022D71CA600BB1483 /* QXQrCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				049E01B122D71CD600BB1483 /* QXQrCodeScan.h */,
+				0469343322D4294100E4D90B /* QXImagePicker.h */,
+				0469343422D4294100E4D90B /* QXImagePicker.m */,
+				0469343622D434B900E4D90B /* QXQrCodeScanVC.h */,
+				0469343722D434B900E4D90B /* QXQrCodeScanVC.m */,
+				0455A05C22D5866A00306DE4 /* image */,
+			);
+			path = QXQrCodeScan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
