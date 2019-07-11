@@ -224,7 +224,6 @@
 				B0128B6E573DB983BDF24DBD /* Pods-QXQrCodeScanUITests.debug.xcconfig */,
 				135FB458B82AB065F51E49AB /* Pods-QXQrCodeScanUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -618,6 +617,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CGEWW2EV8;
 				INFOPLIST_FILE = QXQrCodeScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,6 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CGEWW2EV8;
 				INFOPLIST_FILE = QXQrCodeScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
